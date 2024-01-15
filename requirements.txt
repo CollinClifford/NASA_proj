@@ -1,0 +1,7 @@
+requests
+json
+psycopg2
+dotenv
+python-dotenv
+datetime
+logging
