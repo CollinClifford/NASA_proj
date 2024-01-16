@@ -30,7 +30,7 @@ def extract_keys_from_json(json_file_path):
 
 current_script_directory = os.path.dirname(os.path.abspath(__file__))
 project_directory = os.path.abspath(os.path.join(current_script_directory, '..', '..'))
-json_file_path = os.path.join(project_directory, 'APOD_API/JSON_data/apod.json')
+json_file_path = os.path.join(project_directory, 'SEP_API/JSON_data/SEP.json')
 
 keys_array = extract_keys_from_json(json_file_path)
 
